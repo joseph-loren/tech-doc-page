@@ -17,7 +17,7 @@
 				<a class="nav-link" href="#Unboxing/Setup">Unboxing/Setup</a>
 			</li>
 			<li>
-				<a class="nav-link" href="#Preparing_the_build surface">Preparing the build surface</a>
+				<a class="nav-link" href="#Preparing_the_build_surface">Preparing the build surface</a>
 			</li>
 			<li>
 				<a class="nav-link" href="#Preheating_the_printer">Preheating the printer</a>
@@ -37,14 +37,22 @@
 		<section class="main-section" id="Introduction">
 			<header>Introduction</header>
 			<article>
-			<p>3D printing is a process of creating three dimensional objects through layered deposition of material, most often thermoplastic, using a CNC machine designed for the task.  The CNC machines are usually referred to as "3D Printers" due to their functional similarity to more traditional 2D printing machines. Where 2D printers use ink to create a single layer, 3D printers stack layers to create an object. Simple right? Absolutely!</p>
+			<p>3D printing is a process of creating three dimensional objects through layered deposition of material, most often thermoplastic, using a Computer Numeric Control (CNC) machine designed for the task.  The CNC machines are usually referred to as "3D Printers" due to their functional similarity to more traditional 2D printing machines. Where 2D printers use ink to create a single layer, 3D printers stack layers to create an object. Simple right? Absolutely!</p>
+			<code><p>Here is a list of some useful tools to get you started:</p>
+				<ul>
+					<li>Small hex wrench or screwdriver (same as the bed screws for adjustments)</li>
+					<li>Spatula or scraper</li>
+					<li>Small pliers with cutter</li>
+					<li>Cleaning cloth and Isopropyl Alcohol</li>
+					<li>Hobby knife</li>
+				</ul></code>
 			</article>
 		</section>
 		<section class="main-section" id="Unboxing/Setup">
 			<header>Unboxing/Setup</header>
 			<article>
 				<p>So you've just received that shiny new printer and you're chomping at the bit to get started?  Begin by carefully removing the printer from its packaging and organizing all the included components.  The most useful item at this point will be the assembly instructions.  These ought to guide your hand in removing any protective films, securing ties or bracing pieces that were added to protect the unit during shipping.</p>
-				<p>Take care to dust off any little scraps of styrofoam or cardboard from any moving parts. Canned air for cleaning computers or something functionally similar is useful here, just make sure it's dry!</p>
+				<p>Take care to dust off any little scraps of styrofoam or cardboard from any moving parts. <p><code>Canned air for cleaning computers or something functionally similar is useful here, just make sure it's dry!</code></p>
 			</article>
 		</section>
 		<section class="main-section" id="Preparing_the_build_surface">
@@ -52,19 +60,20 @@
 			<article>
 				<p>The build plate will be one of the most interacted with areas of the machine, as this is where the magic happens! Care and attention to this area will prevent many common challenges and lead to easier "succesful prints".</p>
 				<p>The base build plate is typically constructed of aluminum due to its combination of strength, light weight and superior thermal conductivity. Many designs present the build plate as-is, leaving the operator to choose their desired build substrate. Some designs will incorporate an extra substrate layer to enhance adhesion of the object during printing. This can range from proprietary layers like BuildTak, to simple blue painters tape.</p>
-				<p><code>My personal favorite build layer thus far has been a plate of high-precision borosilicate glass. I used a very thin layer of self-tacking silicone to adhere the glass layer to the aluminum bed.  During heating I simply mist a light coat of AquaNet hairspray onto the glass for a high strength bond that releases easily once the plate cools after the build. The glass has an incredible lifespan and the hairspray is almost free.  If your printer has a "naked" aluminum bed, I highly recommend this upgrade.</code></p>
+				<p><code>My personal favorite build layer thus far has been a plate of high-precision borosilicate glass. I used a very thin layer of self-tacking silicone to adhere the glass layer to the aluminum bed.  During heating I simply mist a light coat of AquaNet hairspray onto the glass for a high strength bond that releases easily once the plate cools. The glass has an incredible lifespan and the hairspray is almost free.  If your printer has a "naked" aluminum bed, I highly recommend this upgrade.</code></p>
 				</article>
 		</section>
 		<section class="main-section" id="Preheating_the_printer">
 			<header>Preheating the printer</header>
 			<article>
-				<p>Preheating the printer is simple, but necessary, as the filament requires a specific temperature to flow and adhere optimally.  Each filament type is different and even some brands vary due to slight differences in composition. If the filament manufacturer has a recommended temperature, start there. Otherwise refer to a common <a href="https://3dinsider.com/3d-printing-materials/">type to temp reference</a> as  a starting point.</p>
+				<p>Preheating the printer is simple, but necessary, as the filament requires a specific temperature to flow and adhere optimally.  Each filament type is different and even different brands of the same type(ie. PLA) vary due to slight differences in composition. If the filament manufacturer has a recommended temperature, start there. Otherwise refer to a common <a href="https://3dinsider.com/3d-printing-materials/">type to temp reference</a> as  a starting point.</p>
+				<p><code>Your slicing software <a href="#Preparing_the_3D_files_and_code">(covered later)</a> will also include some handy presets. These make great starting points for experimentation, but will likely require fine tuning for your specific setup and project.</code></p>
 			</article>
 		</section>
-		<section class="main-section" id="Loading/Unloading_the_filament">
-			<header>Loading/Unloading the filament</header>
+		<section class="main-section" id="Loading_and_unloading_the_filament">
+			<header>Loading and unloading the filament</header>
 			<article>
-				<p>Filament is what becomes the model.  Whichever type of material you use should be based on the desired use case or outcome for your project.  If you are printing things for fun, to display or just experimmenting, PLA can be a very easy and affordable option. It also has the benefit of being made from some plant sources. ABS can be very strong and more thermally resistant, but creates toxic fumes during printing.  This will require ventilation and airflopw, which poses its own problems for keeping the model thermally stable during printing to avoid "shrinkage". PETG makes for a great "best of both worlds" in that it produces no toxic gases, is very strong, has high thermal resistance and prints almost as easily as PLA. Though at a slightly higher cost.</p>
+				<p>Filament is what becomes the model.  Whichever type of material you use should be based on the desired use case or outcome for your project.  If you are printing things for fun, to display or just experimmenting, PLA can be a very easy and affordable option. It also has the benefit of being made from some plant sources. ABS can be very strong and more thermally resistant, but creates toxic fumes during printing.  This will require ventilation and airflow, which poses its own problems for keeping the model thermally stable during printing to avoid "shrinkage". PETG makes for a great "best of both worlds" in that it produces no toxic gases, is very strong, has high thermal resistance and prints almost as easily as PLA. Though at a slightly higher cost.</p>
 				<p>There is typically a lever or button to press to relieve pressure from the filament/extruder gears. Once the extruder is heated the filament may be added or removed by pressing this button and pulling the filament from the extruder.  There will always be a little melted filament left in the extruder, so when adding a new type or color it is a good idea to either have an extra scrap part to print, or manually feed it through until the previous filament is cleared. </p>
 				<p><code>You can queue up new filament by holding the lever down and gently feeding it into the pre-heated extruder until you feel a little resistance and some comes out the nozzle</code></p>
 			</article>
@@ -80,7 +89,7 @@
 			<header>Preparing the 3D files and code</header>
 			<article>
 				<p>Many software solutions abound for handling your modeling and printing prep tasks. CNC machines require some form of "Numerical Code" to interpret motion commands.  This is what your slicing software is for.  After creating your model and outputting it as an ".stl"(stereolithography) file type, it must be imported and processed by the slicing software.</p>
-				<p><code>Unsponsored plug: Ultimaker has an excellent, free app called Cura that excels in usability and beginner friendliness.</code></p>
+				<p><code>Unsponsored plug: Ultimaker has an excellent, free app called <a href="https://ultimaker.com/software/ultimaker-cura">Cura</a> that excels in usability and beginner friendliness.</code></p>
 				<p>The slicing software will allow for settings to speed, temperature, infill pattern, shell thickness and a variety of other inputs. It will then create a coded path for the extruder to follow and output all of this as a ".gcode" file for the printer to execute.</p>
 				<p>At this point you are ready to try your first "Benchy".  Congratulations, and welcome to the wonderful world of 3D printing!</p>
 			</article>

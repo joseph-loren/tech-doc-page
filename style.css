@@ -10,7 +10,8 @@ body {
   color: #3c3c3c;
   background-color: #ffffff;
   font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
-  line-height: 1.5;
+	letter-spacing: 1px;
+  line-height: 1.6;
 }
 
 #navbar {
@@ -26,7 +27,7 @@ body {
 
 header {
   color: black;
-  margin: 10px;
+  margin: 30px auto 10px auto;
   text-align: center;
   font-size: 1.8em;
   font-weight: thin;
@@ -34,11 +35,11 @@ header {
 
 #main-doc header {
   text-align: left;
-  margin: 0px;
+  margin-top: 20px;
 }
 
 #navbar ul {
-  height: 88%;
+  height: 100%;
   padding: 0;
   overflow-y: auto;
   overflow-x: hidden;
@@ -104,6 +105,7 @@ code {
   padding: 15px;
   margin: 10px;
   border-radius: 10px;
+	letter-spacing: 0;
 }
 
 @media only screen and (max-width: 815px) {
@@ -112,6 +114,7 @@ code {
     border: 2px solid;
 		border-color: hsl(244, 44%, 30%);
     height: 205px;
+		margin-bottom: -50px;
   }
 
   #navbar {
